@@ -58,6 +58,41 @@ body {
   height: 1.5em; /* Prevent layout jump */
 }
 
+/* New Styles */
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+}
+
+.add-btn {
+  background: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #ddd;
+}
+
+.cart-display {
+  background: #fff;
+  padding: 15px;
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(211, 47, 47, 0.7); }
   70% { box-shadow: 0 0 0 10px rgba(211, 47, 47, 0); }
